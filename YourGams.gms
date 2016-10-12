@@ -423,7 +423,7 @@ lines_at_limit(i,j,c,k)$(branchstatus(i,j,c) or branchstatus(j,i,c)) = yes$
 
 *{GAMS does not have an argmax function, which is
 *requested here. Here is how to do the
-*equivalent with a dynamic set that I’ll call maximizer.}
+*equivalent with a dynamic set that IÂ’ll call maximizer.}
 
 Linecurrent(i,j,c,k)$((branchstatus(i,j,c) or branchstatus(j,i,c)))
          = sqrt(sqr(V_LineIr.L(i,j,c,k)) + sqr(V_LineIq.L(i,j,c,k)))  ;
